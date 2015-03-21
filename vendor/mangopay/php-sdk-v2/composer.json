@@ -1,0 +1,27 @@
+{
+    "name": "mangopay/php-sdk-v2",
+    "version": "2.0.0",
+    "description": "SDK PHP for Mangopay api V2",
+    "keywords": ["mango api", "mangopay2", "laravel"],
+    "homepage": "https://github.com/MangoPay/mangopay2-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MangoPaySDK"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+   "autoload": {
+        "classmap": ["MangoPaySDK/mangoPayApi.inc"],
+        "files": ["MangoPaySDK/common/common.inc"]
+    }
+    
+}
+
+

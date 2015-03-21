@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!--Declare page as mobile friendly --> 
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <!-- Declare page as iDevice WebApp friendly -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png"> 
+    <!-- iPhone 3, 3Gs -->
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" /> 
+    <!-- iPhone 4 -->
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+    <!-- iPhone 5 -->
+    <link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+
+    <!-- Page Title -->
+    <title>App For Chauffeurs</title>
+
+     <!-- Stylesheet Load --> 
+    <link type="text/css" rel="stylesheet" href="styles/toastr.css?1403937766" />
+    <link type="text/css" rel="stylesheet" href="styles/theme/bootstrap.css?1401481653" />
+    <link type="text/css" rel="stylesheet" href="styles/theme/font-awesome.min.css?1401481653" />
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/framework-style.css" rel="stylesheet" type="text/css">
+    <link href="styles/framework.css" rel="stylesheet" type="text/css">
+    <link href="styles/bxslider.css" rel="stylesheet" type="text/css">
+    <link href="styles/swipebox.css" rel="stylesheet" type="text/css">
+    <link href="styles/icons.css" rel="stylesheet" type="text/css">
+    <link href="styles/retina.css" rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
+
+    <!--Page Scripts Load -->
+    <script src="scripts/jquery.min.js" type="text/javascript"></script>   
+    <script src="scripts/snap.js" type="text/javascript"></script>
+    <script src="scripts/hammer.js" type="text/javascript"></script>   
+    <script src="scripts/jquery-ui-min.js" type="text/javascript"></script>
+    <script src="scripts/jquery.swipebox.js" type="text/javascript"></script>
+    <script src="scripts/bxslider.js" type="text/javascript"></script>
+    <script src="scripts/colorbox.js" type="text/javascript"></script>
+    <script src="scripts/retina.js" type="text/javascript"></script>
+    <script src="scripts/custom.js" type="text/javascript"></script>
+    <script src="scripts/framework.js" type="text/javascript"></script>
+    <script src="scripts/jquery-validation/dist/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="scripts/utils.js" type="text/javascript"></script>
+    <script src="scripts/bookings.js" type="text/javascript"></script>
+    <script src="scripts/toastr/toastr.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <!-- <em>Loading depends on your connection speed!</em> -->
+        </p>
+    </div>
+</div>
+
+
+
+<div class="all-elements">
+    
+    <div id="sidebar" class="page-sidebar">
+        <div class="page-sidebar-scroll">
+			<div class="sidebar-header">
+            	<img class="sidebar-logo" src="images/misc/logo.png" width="63" alt="img">
+     
+            </div>
+            
+            <p class="sidebar-separator">NAVIGATION</p>
+            <a href="mybookings.html" class="nav-item other-nav">MY BOOKINGS<em class="nav-onit"></em></a>
+            
+            
+            <!-- <p class="sidebar-separator">GET SOCIAL</p> -->
+            <a href="mailto:mail@domain.com" class="nav-item contact-nav">MAIL<em class="nav-link"></em></a>
+            <a href="tel:+1 234 567 890" class="nav-item call-nav">CALL US<em class="nav-link"></em></a>
+            <a href="sms:+1 234 567 890" class="nav-item text-nav">TEXT US<em class="nav-link"></em></a>
+
+            <a  onclick="return disconnect()" class="nav-item jquery-nav">DISCONNECT</a>
+        </div>
+    </div>
+       
+    <div id="content" class="page-content">
+        <div class="driver-board"></div>
+        <div class="page-header">
+            <p class="logo">
+               <!--  <img src="images/misc/logo.png" width="63"> -->
+            </p>
+             
+            <a href="#" class="deploy-sidebar"></a>
+        </div>        
+        <div class="container">
+        	<h4 class="heading center-text">
+                <img src="images/misc/logo.png" width="153" alt="A4C" style="margin:0 auto;">
+            </h4>
+           
+            <br>
+
+            <section id="tabcontainer">
+                <ul id="tab" class="tab interval">
+                    <li class="active"><a class="tab-but" data-interval="today" href="#today">Today</a></li>
+                    <li><a class="tab-but" data-interval="tomorow" href="#tomorow">Tomorrow</a></li>
+                    <li><a class="tab-but" data-interval="week" href="#week">This week</a></li>
+                </ul>
+                <div id="today" class="tab-content">
+                        <section class="accordion">
+                               
+
+                              
+                        </section>
+                </div>
+                <div id="tomorow" class="tab-content">
+                   <section class="accordion">
+                               
+
+                              
+                        </section>
+                </div>
+            
+                <div id="week" class="tab-content">
+                     <section class="accordion">
+                               
+
+                              
+                        </section>
+                </div>
+                <div class="clear"></div>
+            </section>
+        </div>
+           
+	</div> 
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

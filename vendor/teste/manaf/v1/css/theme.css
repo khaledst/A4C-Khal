@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+	font: 14px/21px 'ralewayregular', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family: 'ralewayregular', 'Helvetica Neue',Helvetica,Arial, sans-serif;
+	text-decoration: none;
+}
+
+.logo{
+	display: block;
+	text-indent: -10000px;
+	width: 100%;
+	background: url(../media/brand.png) 0 0 no-repeat;
+	background-size: 100%;
+	margin:0;
+}
+
+.login-page{
+	background: url(../media/bg01.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.presta-content{
+	background: rgba(88, 81, 125, 0.7);
+}
+
+/* SECTIONS */
+
+.section{
+	min-height: 200px;
+}
+
+#section1{
+
+}
+
+#section2{
+	background:url("../media/bgmap.jpg") 0 0 no-repeat;
+	background-size: cover;
+	padding-bottom: 20px;
+}
+
+#section3{
+	background:url("../media/bgprestation.jpg") 0 0 repeat;
+	padding-bottom: 20px;
+	min-height: 100px;
+}
+
+#section4{
+	background:#e5e5e5 url('../media/iphone.jpg') right bottom no-repeat;
+	background-size: 100%;
+	position:relative;
+    height:100%;
+    width:100%;
+	/* min-height: 700px; */
+}
+
+#section5{
+	background:url("../media/mapfooter.jpg") center bottom no-repeat;
+	background-size: cover;
+	min-height: 450px;
+}

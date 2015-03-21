@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+		<meta name="author" content="www.pl.com" />
+
+		<title>Mes Historique | Prestige Limousine</title>
+
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS Bootstrap -->
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+	<!-- CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+		<link type="text/css" rel="stylesheet" href="css/animate.css">
+		<link type="text/css" rel="stylesheet" href="css/font.css">
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+
+    <!-- Theme PL -->
+        <link type="text/css" rel="stylesheet" href="css/theme.css">
+	
+	<!-- JS-->
+		<script src="js/bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.bootstrap.wizard.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+	<body>
+		<div id="page">
+			<nav class="navbar navbar-fixed-top navmodel" role="navigation">
+				<div class="container menu-mobile hidden-lg">
+					<div class="col-xs-2 col-md-2" style="padding: 0;">
+						<a href="#menuleft" class="btn-menu-left"><i class="fa fa-bars"></i></a>
+					</div>
+					<div class="col-xs-8 col-md-8">
+						<a class="navbar-brand text-center" href="index.html"><h1 class="logo">Prestige Limousine</h1></a>
+				    </div>
+				    <div class="col-xs-2 col-md-2" style="padding: 0;">
+				    	<a href="#menuright" class="btn-menu-right"><i class="fa fa-user"></i></a>
+					</div>
+				</div>
+			 	<div class="container menu-desktop hidden-xs hidden-sm hidden-md">
+				    <div class="navbar-header">
+				      <a class="navbar-brand" href="index.html">
+				      	<h1 class="logo">Prestige Limousine</h1>
+				      </a>
+				    </div>
+
+				    <div class="collapse navbar-collapse" id="navbar-collapse">    
+				      <ul class="nav navbar-nav navbar-right">
+				      	  <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 10px;">
+							<img class="img-nav-user" src="media/user.png" alt="">
+				          	Bernard <span class="caret"></span></a>
+				          <ul class="dropdown-menu" role="menu">
+				            <li><a href="account.html">Mon compte</a></li>
+				            <li><a href="history.html">Historique</a></li>
+				            <li><a href="#">Mes commandes en cours</a></li>
+				            <li><a href="#">Informations personnelles</a></li>
+				            <li><a href="#">Déconnexion</a></li>
+				          </ul>
+				        </li>
+				        <!-- <li><a href="createaccount.html">MON COMPTE</a></li>
+				        <li><a href="login.html">SE CONNECTER</a></li> -->
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MENU <span class="caret"></span></a>
+				          <ul class="dropdown-menu" role="menu">
+				            <li><a href="index.html">Accueil</a></li>
+				            <li><a href="#section2">Réservation</a></li>
+				            <li><a href="#section3">Nos prestations</a></li>
+				            <li><a href="#section4">Notre appli</a></li> 
+				            <!-- <li class="divider"></li> -->
+				            <li><a href="#section5">Nous contacter</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div>
+				</div>
+			</nav>
+			<div id="content" class="content" data-spy="scroll" data-target=".navmodel" data-offset="150">
+
+				<section id="section8" class="section">
+					<div class="topclear"></div>
+					<div class="navbar bgwhite text-center">
+						<h3 class="section-title">MON COMPTE</h3>
+					</div>
+					<div class="container">
+							
+						<h3>HISTORIQUE DE MES DERNIERES COURSES</h3>
+						<br>
+
+						<div class="col-md-2 text-right">Date :</div>
+						<div class="col-md-6">
+							<select name="order" id="dateorder" class="form-control">
+								<option value="1">Novembre 2014</option>
+							</select>
+						</div>
+						<div class="col-md-4">
+							<select name="actions" id="tableactions" class="form-control">
+								<option value="1">Télécharger en PDF</option>
+							</select>
+						</div>
+
+						<br><br>
+						
+						<div class="table-responsive">
+							<table class="table table-striped table-hover">
+							  <thead>
+						        <tr>
+							         <th><input type="checkbox"></th>
+							         <th>DATE</th>
+							         <th>HEURE</th>
+							         <th>ADRESSE DEPART </th>
+							         <th>ADRESSE ARRIVEE</th>
+							         <th>COÛT</th>
+							         <th>STATUT</th>
+							         <th></th>
+							         <th></th>
+						        </tr>
+						      </thead>
+						      <tbody>
+						        <tr>
+						        	<td><input type="checkbox"></td>
+						        	<td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>En cours</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						        <tr>
+						        	<td><input type="checkbox"></td>
+							         <td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>En cours</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						        <tr>
+						        	<td><input type="checkbox"></td>
+							         <td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>Réalisée</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						        <tr>
+						        	<td><input type="checkbox"></td>
+						        	<td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>Réalisée</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						        <tr>
+						        	 <td><input type="checkbox"></td>
+						        	 <td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>Réalisée</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						        <tr>
+						        	 <td><input type="checkbox"></td>
+						        	 <td>12/11/14</td>
+							         <td>18 : 05</td>
+							         <td>10, rue Bayard</td>
+							         <td>72, rue saint. Sébastien</td>
+							         <td>45 €</td>
+							         <td>Réalisée</td>
+							         <td><a href="#">Détails</a></td>
+							         <td><a href="#"><i class="fa fa-file-pdf-o"></i></a></td>
+							         <td><a href="#"><i class="fa fa-envelope-o"></i></a></td>
+						        </tr>
+						      </tbody>
+							</table>
+						</div>
+					</div>
+
+				</section>
+
+				<footer class="footer">
+					<div class="container">
+						<div class="col-md-3 foot">
+							<form class="form-horizontal" role="form">
+								<select class="form-control">
+								  <option>Français</option>
+								  <option>Anglais</option>
+								</select>
+							</form>
+							<br>
+							<small>
+								© Prestige.
+							</small>
+						</div>
+						<div class="col-md-3 foot">
+							<ul>
+								<li><a href="#">> Mon compte</a></li>
+								<li><a href="#">> Créer un compte</a></li>
+								<li><a href="#">> Réservation</a></li>
+							
+							</ul>
+						</div>
+						<div class="col-md-3 foot">
+							<ul>
+								<li><a href="#">> FAQ</a></li>
+								<li><a href="#">> Mentions légales</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 foot">
+							<p class="text-right">Rejoignez-nous sur</p>
+							<ul class="social-icons text-left">
+					      
+					         <li>
+					            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+					          </li>
+					          <li>
+					            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+					          </li>
+					         <li>
+					          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+					         </li>
+					         <li>
+					           <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+					         </li>
+					        </ul>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<nav id="menuleft" class="navmodel hidden-lg">
+
+			<ul>
+				<li><h4 class="menu-title">MENU</h4></li>
+				<li><a href="index.html" data-number="1">Accueil</a></li>
+				<li><a href="#section2" data-number="2">Réservation</a></li>
+				<li><a href="#section3" data-number="3">Nos prestations</a></li>
+				<!-- <li><a href="#section4" data-number="4">Notre appli</a></li> -->
+				<li><a href="#section5" data-number="5">Nous contacter</a></li>
+			</ul>
+		</nav>
+		<nav id="menuright" class="navmodel hidden-lg">
+			 <ul>
+			 	<li>
+			 		<a href="#" class="user-block text-center">
+						<img class="img-slide-user" src="media/big-user.png" alt="">
+						<p>Bienvenue <span>Bernard</span> !</p>
+					</a>
+			 	</li>
+				<li><a href="#">Mon compte</a></li>
+	            <li><a href="#">Historique</a></li>
+	            <li><a href="#">Mes commandes en cours</a></li>
+	            <li><a href="#">Informations personnelles</a></li>
+	            <li><a href="#">Déconnexion</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>

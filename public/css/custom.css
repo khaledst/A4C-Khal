@@ -1,0 +1,665 @@
+﻿tbody tr {
+    cursor: pointer;
+}
+
+tbody .selected {
+    background-color: #70bc99;
+}
+
+.dnone {
+    display: none;
+}
+
+#horaires tbody td, tr {
+    background-color: transparent;
+}
+
+#horaires tbody td:hover, tr:hover {
+    background-color: transparent;
+}
+
+
+#horaires tbody tr .interval:hover {
+    background-color: #70bc99;
+}
+
+#horaires tbody tr .marked {
+    background-color: #F8576D;
+}
+
+#horaires {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: none;
+    border-radius: none;
+}
+
+
+.box .style-white, .box.style-white {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #333333;
+    border: 1px solid #dddddd;
+    border-top: 0px;
+}
+
+.nav-tabs > li > a {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nav-tabs > li.active > a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 0px 0px 0 0;
+    background-color: #35A6F1;
+    border: 1px solid #dddddd;
+    border-bottom-color: transparent;
+    cursor: default;
+    color: white;
+}
+/*GOOGLE MAPS*/
+
+#directionsPanel {
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+#directionsPanel .adp {
+    margin: 0px;
+}
+
+
+.offer_text {
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+/*SIZES*/
+
+/*width using w*/
+
+.w100 {
+    width: 100px;
+}
+
+.w185 {
+    width: 185px;
+}
+
+.w185 {
+    width: 185px;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.w23p {
+    width: 23%;
+}
+
+.w285 {
+    width: 285px;
+}
+
+.w320 {
+    width: 320px;
+}
+
+.w330 {
+    width: 330px;
+}
+
+.wp45 {
+    width: 45%;
+}
+
+/*height*/
+.h500p {
+    height: 500px;
+}
+
+
+
+.h100p {
+    height: 100%;
+}
+
+.h50p {
+    height: 50%;
+}
+
+.h270 {
+    height: 270px;
+}
+
+
+.h34 {
+    height: 34px;
+}
+
+.h33 {
+    height: 33px;
+}
+/*max widt */
+
+
+.max340 {
+    max-width: 340px;
+}
+
+.max340w {
+    max-width: 340px;
+}
+
+.max380w {
+    max-width: 380px;
+}
+
+
+.max1000 {
+    max-width: 1000px;
+}
+
+/*MIN HEIGHT*/
+.mh70 {
+    min-height: 70px;
+}
+
+/*FLOAT*/
+.fn {
+    float: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*FONTS*/
+
+.ft12
+{
+    
+    font-size: 12px;
+}
+
+/*MARGINS*/
+/*Margin Left*/
+.mt20 {
+    margin-top: 20px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml0 {
+    margin-left: 0px;
+}
+/*Margin Right*/
+.mr20 {
+    margin-right: 20px;
+}
+
+
+.collapsed {
+    display: none;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.pt15 {
+    padding-top: 15px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+/*paddings*/
+.p0 {
+    padding: 0px;
+}
+
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+/*borders*/
+
+.bbtw {
+    border-bottom-color: white;
+    border-top-color: white;
+}
+/*background-colors*/
+
+.bg-gray {
+    background: #f2f2f2;
+}
+
+/*font styles*/
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+/*STYLES*/
+
+/*BORDER*/
+.st1 {
+    border: 1px solid rgb(56, 84, 104);
+    border-top: none;
+}
+
+table {
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+/*ADD  ON*/
+
+/*MASTERCARD FORM*/
+.payment-by-card-container {
+    width: 100%;
+    margin: 10px;
+}
+
+.payment-by-card-container .card-wrapper {
+    float: left;
+}
+
+.payment-by-card-container form {
+    margin-left: 30px;
+    float: left;
+    background-color: rgb(221, 221, 221);
+    min-height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 470px;
+}
+
+.payment-by-card-container form #validate-card {
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+
+
+.payment-by-card-container form input {
+    width: 250px;
+    margin: 10px auto;
+    display: block;
+    left: 0px;
+    margin-left: 0px;
+}
+
+.card-status {
+    top: 10px;
+    position: absolute;
+    font-weight: bold;
+    right: 30px;
+}
+
+
+.payement-column-header-style {
+    background-color: rgb(221, 221, 221);
+    padding-top: 10px;
+}
+
+.booking-complete .header-msg img {
+    width: 100px;
+}
+
+.ico-card-status {
+    width: 10px;
+    height: 10px;
+    bottom: 2px;
+    position: relative;
+    background-image: url('../img/leds/led_off.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    right: -20px;
+    top: 4px;
+}
+
+.ico-card-status.active {
+    width: 10px;
+    height: 10px;
+    bottom: 2px;
+    position: relative;
+    background-image: url('../img/leds/led_on.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    right: -20px;
+    top: 4px;
+}
+/*SHOW HIDE CLASSES*/
+
+
+/*THEME BLUE*/
+.blue {
+    background-color: rgb(34, 54, 76);
+    color: white;
+}
+
+.blue:hover {
+    color: rgb(206, 167, 72);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.labels {
+    color: red;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+.driver {
+    color: #ffd800;
+    background-color: black;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 8px;
+    text-align: center;
+    width: 60px;
+    border: 1px solid black;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+.logo {
+    position: absolute;
+    right: 20px;
+    width: 340px;
+}
+
+.logo.header {
+    background: #f2f2f2;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 14px;
+    height: 46px;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+    position: initial;
+}
+
+.logo.upload {
+    height: 226px;
+    padding: 10px;
+    width: 100%;
+    position: initial;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+}
+
+.logo.upload canvas {
+    top: 20px;
+    position: relative;
+}
+
+
+#offre_img {
+    width: 100%;
+    position: absolute;
+    height: 230px;
+    float: left;
+    top: 45px;
+    left: 0px;
+    padding: 10px;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+
+
+    .logo {
+        position: relative;
+        right: 0px;
+        width: 24%;
+        top: 100px;
+        left: 0px;
+        height: 372px;
+        width: 100%;
+    }
+
+    .logo.header {
+        position: absolute;
+        top: 0px;
+        font-weight: 600;
+    }
+
+    .logo.upload {
+        position: absolute;
+        top: 46px;
+    }
+}
+
+
+/*tarifs*/
+#tarif_upload {
+    position: absolute;
+    width: 130px;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: 50px;
+    height: 50px;
+    z-index: 2000;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#upload_button {
+    margin-top: 50px;
+    cursor: pointer;
+    top: 50px;
+}
+
+.upload_status {
+    display: none;
+    top: 100px;
+}
+
+
+#upload_offre_img_btn {
+    margin-top: 50px;
+    z-index: 1000;
+}
+
+.timesheet-control {
+    padding: 5px;
+    height: 45px;
+}
+
+#grid_wrapper {
+    position: inherit;
+}
+
+
+/*TIMESHEET*/
+.active-time {
+    background-color: rgb(112, 188, 153);
+}
+
+
+/*MENU ITENS*/
+
+
+
+/*NAV TABS*/
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .active {
+    display: block;
+}
+
+
+
+
+.profile .picture canvas {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+
+
+
+.edit canvas {
+    z-index: 1000;
+    width: 50%;
+    margin-top: 25px;
+    left: 40px;
+    position: absolute;
+    display: none;
+}
+
+.profile .holder {
+    position: relative;
+    background-color: white;
+    min-height: 300px;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 354px;
+}
+
+.profile .holder .img_preview {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+}
+
+.profile .holder .img_preview2 {
+    position: relative;
+    cursor: pointer;
+    max-width: 350px;
+}
+
+.edit .img_edit_wrapper {
+    background-color: white;
+    width: 223px;
+    height: 182px;
+    position: absolute;
+    z-index: 1000;
+    border: 8px solid #F2F2F2;
+}
+
+.edit .img_edit {
+    cursor: pointer;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 126px;
+    position: absolute;
+}
+
+.logo .img_edit_wrapper {
+    cursor: pointer;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 340px;
+    position: relative;
+    height: 263px;
+}
+
+.logo .img_edit {
+    background-color: white;
+    width: auto;
+    max-width: 325px;
+    position: absolute;
+    z-index: 1000;
+    max-height: 249px;
+}
+
+
+.no-visible {
+    visibility: hidden;
+}
+
+
+/*CHECKBOXES*/
+
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 0px;
+}

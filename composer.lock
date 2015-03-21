@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a28e3cb7e3f0598e510f6c398cc954b5",
+    "packages": [
+        {
+            "name": "mangopay/php-sdk-v2",
+            "version": "v1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MangoPay/mangopay2-php-sdk.git",
+                "reference": "37f62d14a98ac93d427bb857b62e9ce3ad30d5fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MangoPay/mangopay2-php-sdk/zipball/37f62d14a98ac93d427bb857b62e9ce3ad30d5fc",
+                "reference": "37f62d14a98ac93d427bb857b62e9ce3ad30d5fc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "MangoPaySDK/mangoPayApi.inc"
+                ],
+                "files": [
+                    "MangoPaySDK/common/common.inc"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SDK PHP for Mangopay api V2",
+            "time": "2014-08-20 13:31:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
